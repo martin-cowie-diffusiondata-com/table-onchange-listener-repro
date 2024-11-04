@@ -1,0 +1,37 @@
+{
+  "name": "table-onchange-listener-repro",
+  "version": "1.0.0",
+  "description": "Reproduction of problem observed with Excel Table objects",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --port 3000",
+    "start": "office-addin-debugging start src/manifest.xml",
+    "build": "tsc && vite build"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "@fluentui/react-components": "^9.54.17",
+    "@fluentui/react-icons": "~2.0.242",
+    "vite-plugin-node-polyfills": "^0.21.0",
+    "react": "^18.2.0"
+  },
+
+  "devDependencies": {
+    "vite": "^4.3.9",
+    "vite-plugin-eslint": "^1.8.1",
+    "vite-plugin-office-addin": "^1.0.0",
+    "typescript": "^5.0.4",
+    "office-addin-cli": "^1.5.9",
+    "office-addin-debugging": "^5.0.17",
+    "office-addin-dev-certs": "^1.11.6",
+    "office-addin-lint": "^2.2.9",
+    "office-addin-manifest": "^1.12.11",
+    "office-addin-mock": "^2.4.4",
+    "office-addin-prettier-config": "^1.2.0",
+    "@types/office-js": "^1.0.395",
+    "@types/office-runtime": "^1.0.35",
+    "@vitejs/plugin-react-swc": "^3.7.0"
+  },
+  "author": "Martin Cowie",
+  "license": "ISC"
+}
